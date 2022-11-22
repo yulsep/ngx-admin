@@ -9,11 +9,11 @@ import { ListComponent } from './list/list.component';
 @NgModule({
   declarations: [
     CreateComponent,
-    ListComponent
+    ListComponent,
   ],
   imports: [
     CommonModule,
-    VoteRoutingModule
-  ]
+    VoteRoutingModule,
+  ],
 })
 export class VoteModule { }

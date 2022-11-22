@@ -13,11 +13,11 @@ import { ListComponent } from './list/list.component';
     CreateComponent,
     UpdateComponent,
     DeleteComponent,
-    ListComponent
+    ListComponent,
   ],
   imports: [
     CommonModule,
-    PartiesRoutingModule
-  ]
+    PartiesRoutingModule,
+  ],
 })
 export class PartiesModule { }

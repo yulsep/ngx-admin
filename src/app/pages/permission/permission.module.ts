@@ -13,11 +13,11 @@ import { ListComponent } from './list/list.component';
     CreateComponent,
     DeleteComponent,
     UpdateComponent,
-    ListComponent
+    ListComponent,
   ],
   imports: [
     CommonModule,
-    PermissionRoutingModule
-  ]
+    PermissionRoutingModule,
+  ],
 })
 export class PermissionModule { }

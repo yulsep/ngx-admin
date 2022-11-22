@@ -13,11 +13,11 @@ import { DeleteComponent } from './delete/delete.component';
     CreateComponent,
     ListComponent,
     UpdateComponent,
-    DeleteComponent
+    DeleteComponent,
   ],
   imports: [
     CommonModule,
-    UserRoutingModule
-  ]
+    UserRoutingModule,
+  ],
 })
 export class UserModule { }

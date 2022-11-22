@@ -36,7 +36,7 @@ const routes: Routes = [{
       path: 'partidos',
       loadChildren: () => import('./parties/parties.module')
       .then(m => m.PartiesModule),
-    },    
+    },
     {
       path: 'reportes',
       loadChildren: () => import('./reports/reports.module')

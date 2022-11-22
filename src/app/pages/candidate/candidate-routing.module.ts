@@ -8,20 +8,20 @@ import { UpdateComponent } from './update/update.component';
 const routes: Routes = [
   {
     path: 'listar',
-    component: ListComponent
+    component: ListComponent,
   },
   {
     path: 'crear',
-    component: CreateComponent
+    component: CreateComponent,
   },
   {
     path: 'actualizar',
-    component: UpdateComponent
+    component: UpdateComponent,
   },
   {
     path: 'eliminar',
-    component: DeleteComponent
-  }
+    component: DeleteComponent,
+  },
 ];
 
 @NgModule({

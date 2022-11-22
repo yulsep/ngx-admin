@@ -6,16 +6,16 @@ import { ListComponent } from './list/list.component';
 const routes: Routes = [
   {
     path: 'listar',
-    component: ListComponent
+    component: ListComponent,
   },
   {
     path: 'crear',
-    component: CreateComponent
-  }
+    component: CreateComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class VoteRoutingModule { }
