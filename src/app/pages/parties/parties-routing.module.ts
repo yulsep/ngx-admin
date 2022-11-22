@@ -19,7 +19,7 @@ const routes: Routes = [
     component: UpdateComponent,
   },
   {
-    path:'eliminar',
+    path: 'eliminar',
     component: DeleteComponent,
   },
 ];
