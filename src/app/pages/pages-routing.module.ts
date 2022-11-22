@@ -10,6 +10,54 @@ const routes: Routes = [{
   path: '',
   component: PagesComponent,
   children: [
+    // Project routes
+    {
+      path: 'seguridad',
+      loadChildren: () => import('./security/security.module')
+      .then(m => m.SecurityModule),
+    },
+    {
+      path: 'candidatos',
+      loadChildren: () => import('./candidate/candidate.module')
+      .then(m => m.CandidateModule),
+    },
+    {
+      path: 'mesas',
+      loadChildren: () => import('./table/table.module')
+      .then(m => m.TableModule),
+    },
+
+    {
+      path: 'votos',
+      loadChildren: () => import('./vote/vote.module')
+      .then(m => m.VoteModule),
+    },
+    {
+      path: 'partidos',
+      loadChildren: () => import('./parties/parties.module')
+      .then(m => m.PartiesModule),
+    },    
+    {
+      path: 'reportes',
+      loadChildren: () => import('./reports/reports.module')
+      .then(m => m.ReportsModule),
+    },
+    {
+      path: 'usuario',
+      loadChildren: () => import('./user/user.module')
+      .then(m => m.UserModule),
+    },
+    {
+      path: 'rol',
+      loadChildren: () => import('./rol/rol.module')
+      .then(m => m.RolModule),
+    },
+    {
+      path: 'permisos',
+      loadChildren: () => import('./permission/permission.module')
+      .then(m => m.PermissionModule),
+    },
+    // Template routes
     {
       path: 'dashboard',
       component: ECommerceComponent,
