@@ -21,7 +21,7 @@ const routes: Routes = [
   {
     path: 'eliminar',
     component: DeleteComponent
-  }
+  },
 ];
 
 @NgModule({
